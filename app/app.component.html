@@ -1,0 +1,52 @@
+<p>
+  Using ngx-collapse 
+</p>
+
+  <a class="btn btn-primary" href="#" (click)="isCollapsed = !isCollapsed" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Line 1
+  </a>
+  <button class="btn btn-primary" type="button" (click)="isCollapsed = !isCollapsed" aria-expanded="false" aria-controls="collapseExample" style="visibility:hidden;" >
+    Button with data-target
+  </button>
+<div [collapse]="isCollapsed">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+
+<div style="padding-top:20px;">
+<a class="btn btn-primary" href="#" (click)="isCollapsed2 = !isCollapsed2" role="button" aria-expanded="false" aria-controls="collapseExample"  >
+  Line 2
+</a>
+<div [collapse]="isCollapsed2">
+  <div class="card card-body">
+    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+  </div>
+</div>
+</div>
+
+
+
+<div style="padding-top:20px;">
+  <a class="btn btn-primary" href="#" (click)="isCollapsed3 = !isCollapsed3" role="button" aria-expanded="false" aria-controls="collapseExample"  >
+    Line 3
+  </a>
+  <div [collapse]="isCollapsed3">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+  </div>
+
+
+
+<div style="padding-top:20px;">
+  <a class="btn btn-primary" href="#" (click)="isCollapsed4 = !isCollapsed4" role="button" aria-expanded="false" aria-controls="collapseExample"  >
+    Line 4
+  </a>
+  <div [collapse]="isCollapsed4">
+    <div class="card card-body">
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+    </div>
+  </div>
+  </div>
